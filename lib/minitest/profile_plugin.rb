@@ -26,7 +26,7 @@ module Minitest
       results << [result.time, result.location]
     end
 
-    HOW_MANY = 99
+    HOW_MANY = 20
 
     def report
       return unless passed?
