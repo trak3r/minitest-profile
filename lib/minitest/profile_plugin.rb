@@ -36,7 +36,7 @@ module Minitest
       puts "=" * 80
       puts
       sorted_results[0,HOW_MANY].each do |time, test_name|
-        puts "#{sprintf("%7.4f",time)}ms - #{test_name}"
+        puts "#{sprintf("%7.2f",time)}s - #{test_name}"
       end
 
       puts
