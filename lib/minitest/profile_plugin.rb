@@ -31,9 +31,9 @@ module Minitest
     def report
       return unless passed?
       puts
-      puts "=" * 80
+      puts "=" * 60
       puts "Your #{HOW_MANY} Slowest Tests"
-      puts "=" * 80
+      puts "=" * 60
       puts
       sorted_results[0,HOW_MANY].each do |time, test_name|
         puts "#{sprintf("%7.2f",time)}s - #{test_name}"
